@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=PT+Sans:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 3rem;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: black;
+}
+
+/* phone */
+@media (max-width: 600px) { 
+    .main_section {
+        position: relative;
+    }
+    .workspace {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+    }
+    .sidebar {
+        visibility: hidden;
+    }
+    .search-box--section {
+        width: 70px;
+    }
+}
+/* tab-port */
+@media (max-width: 900px) { 
+    .sidebar {
+        max-width: 15rem;
+    }
+}
+/* tab-land */
+@media (max-width: 1200px) { 
+    .sidebar {
+        width: 20rem;
+    }
+}
+/* big desktop */
+@media (max-width: 1800px) { 
+
+}
